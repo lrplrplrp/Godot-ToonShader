@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bfhh0pfwga6re"]
+
+[ext_resource type="PackedScene" uid="uid://dl0ropdda0f0s" path="res://scene/娜娜莉.tscn" id="1_h3yl6"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1mswn"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_jmg2t"]
+sky_material = SubResource("ProceduralSkyMaterial_1mswn")
+
+[sub_resource type="Environment" id="Environment_532h8"]
+background_mode = 2
+sky = SubResource("Sky_jmg2t")
+glow_enabled = true
+
+[node name="ToonScene" type="Node3D" unique_id=1403684786]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=180526532]
+environment = SubResource("Environment_532h8")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1893727692]
+transform = Transform3D(-0.9999983, 7.0044975e-05, -0.0017439676, 0, 0.9991942, 0.040131785, 0.0017453737, 0.04013172, -0.99919266, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 20.6
+
+[node name="娜娜莉" parent="." unique_id=1648550729 node_paths=PackedStringArray("dir_light") instance=ExtResource("1_h3yl6")]
+dir_light = NodePath("../DirectionalLight3D")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=745192397]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0723708, 0.2422136)

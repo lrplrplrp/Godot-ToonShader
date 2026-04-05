@@ -1,0 +1,145 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://r1j0id26xca"
+path="res://.godot/imported/娜娜莉.gltf-c80c6f376544ecf6b31c959d2fcd202a.scn"
+
+[deps]
+
+source_file="res://model/娜娜莉.gltf"
+dest_files=["res://.godot/imported/娜娜莉.gltf-c80c6f376544ecf6b31c959d2fcd202a.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"Cloth1": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Cloth1.tres",
+"use_external/path": "uid://bxdqb6q8do1c6"
+},
+"Cloth1_Nail": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Cloth1_Nail.tres",
+"use_external/path": "uid://dgiw5inti2pyg"
+},
+"Cloth1_Skirt": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Cloth1_Skirt.tres",
+"use_external/path": "uid://b4btckomxamd7"
+},
+"Cloth2": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Cloth2.tres",
+"use_external/path": "uid://drhwefd6ptf5e"
+},
+"Ears+Tail": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Ears+Tail.tres",
+"use_external/path": "uid://ucu12teqev8r"
+},
+"Emotion1": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Emotion1.tres",
+"use_external/path": "uid://bm0sdnx57g1g"
+},
+"Emotion2": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Emotion2.tres",
+"use_external/path": "uid://ennxean3k8us"
+},
+"Eye": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Eye.tres",
+"use_external/path": "uid://btjd3mqgda0ud"
+},
+"EyeHi": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/EyeHi.tres",
+"use_external/path": "uid://cxnor72adoydw"
+},
+"EyeShadow(Hide)": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/EyeShadow(Hide).tres",
+"use_external/path": "uid://c3k4m65n62qxk"
+},
+"EyeWhite": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/EyeWhite.tres",
+"use_external/path": "uid://b78xps73phka3"
+},
+"Eyelash": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Eyelash.tres",
+"use_external/path": "uid://42y203rkxle5"
+},
+"Eyelid": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Eyelid.tres",
+"use_external/path": "uid://q0vu33wok0po"
+},
+"Face": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Face.tres",
+"use_external/path": "uid://dc36yrukqwhpf"
+},
+"Hair_Back": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Hair_Back.tres",
+"use_external/path": "uid://b1p102scs3oj0"
+},
+"Hair_Front": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Hair_Front.tres",
+"use_external/path": "uid://ddw4r6b3wmyb"
+},
+"Mouth": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Mouth.tres",
+"use_external/path": "uid://dmk3pvvd3r66q"
+},
+"Skin_Body": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Skin_Body.tres",
+"use_external/path": "uid://xi4yi8fjjo5n"
+},
+"Teeth": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Teeth.tres",
+"use_external/path": "uid://cbej5qnjxi0hu"
+},
+"Tongue": {
+"use_external/enabled": false,
+"use_external/fallback_path": "res://model/material/Tongue.tres",
+"use_external/path": "uid://f8aidomxelwd"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
